@@ -1,0 +1,60 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url("bg.jpg");
+    background-color: #cccccc;
+	
+}
+
+.container{
+    color:brown;
+    background-color: white;
+    max-width: 600px;
+    margin: 225px auto;
+    overflow: hidden;
+    border: 2px solid midnightblue;
+    text-align: flex-start;
+}
+
+h2{
+    text-align: center;
+    color:midnightblue;
+}
+
+.inside{
+    align-items: center;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+button{
+    display: inline-block;
+    padding: 2px 30px;
+    line-height: 1.6;
+    cursor: pointer;
+    border:none;
+    color: #fff;
+    background:midnightblue;
+    border-radius: 5px;
+    letter-spacing: 2px;
+}
+
+.bdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+    margin-left: 45%;
+    margin-bottom: 2%;
+}
+
+select{
+    margin-bottom: 10px;
+    margin-top: -10%;
+}
+
+.res{
+    align-items: center;
+    text-align: center;
+
+}
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS CALCULATOR WITH STYLE</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class='container'>
+            <h2 style="text-align: center;">The CALCULATOR</h2>
+            <div class='inside'>
+                <p>
+                Num 1 =
+                <input type="text" placeholder="Please enter A value" id="n1"/> <br/><br/>
+                Num 2=  
+                <input type="text" placeholder="Please enter B value" id="n2"/><br/><br/></div>
+            <div class="bdiv">
+                <select id="operators">
+                    <option value="sp">Select operators</option>
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="/">/</option>
+                    <option value="X">X</option>
+                </select>
+                <br><br>
+                 <button onclick="calc();">Result</button><br><br>
+            </div>
+         
+            <div class="res">
+            Result= 
+            <input type="text" id="result"/>
+            </div>
+            </p>
+        </div>
+        
+    <script src="js.js"></script> 
+    </body>
+</html>
